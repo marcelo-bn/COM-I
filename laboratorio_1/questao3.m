@@ -49,7 +49,7 @@ title('Função autocorrelação do ruído')
 filtro = fir1(50,(1000*2)/fs); 
 figure(3)
 freqz(filtro) % Resposta em freq.
-title('Filtro passa-baixa com frequência de corte de 2kHz')
+title('Filtro passa-baixa com frequência de corte de 1kHz')
 
 % Realizando a filtragem do filtro
 ruido_filtro = filter(filtro,1,ruido);
