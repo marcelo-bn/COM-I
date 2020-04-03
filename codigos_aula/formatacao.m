@@ -98,7 +98,7 @@ subplot(2,1,2)
 plot(eixo_f,abs(Y_rec3))
 title('Sinal recuperado')
 
-% Quanto mais bits de quantizao 
+% Quanto mais bits de quantizacao 
 % menos erro e menos frequencias indesejadas 
 % ira ter o sinal 
 
